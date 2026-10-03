@@ -1,0 +1,1 @@
+# OpenAPI-TypeScript-SDK-Generator
