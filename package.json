@@ -1,1 +1,23 @@
-
+{
+  "name": "openapi-sdk-gen",
+  "version": "1.0.0",
+  "description": "Lightweight CLI tool that generates TypeScript interfaces and SDK methods from OpenAPI specs.",
+  "type": "module",
+  "main": "dist/generator.js",
+  "bin": {
+    "openapi-sdk-gen": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "generate": "tsx src/cli.ts"
+  },
+  "dependencies": {
+    "commander": "^12.0.0",
+    "openapi-typescript": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0"
+  }
+}
